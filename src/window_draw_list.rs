@@ -30,13 +30,13 @@ impl From<ImU32> for ImColor {
 
 impl From<[f32; 4]> for ImColor {
     fn from(v: [f32; 4]) -> Self {
-        ImColor(unsafe { sys::igColorConvertFloat4ToU32(v.into()) })
+        ImColor(unsafe { sys::igColorConvertFloat4ToU32(&v.into()) })
     }
 }
 
 impl From<(f32, f32, f32, f32)> for ImColor {
     fn from(v: (f32, f32, f32, f32)) -> Self {
-        ImColor(unsafe { sys::igColorConvertFloat4ToU32(v.into()) })
+        ImColor(unsafe { sys::igColorConvertFloat4ToU32(&v.into()) })
     }
 }
 
@@ -178,8 +178,8 @@ impl<'ui> WindowDrawList<'ui> {
         unsafe {
             sys::ImDrawList_AddRectFilledMultiColor(
                 self.draw_list,
-                p1.into(),
-                p2.into(),
+                &p1.into(),
+                &p2.into(),
                 col_upr_left.into().into(),
                 col_upr_right.into().into(),
                 col_bot_right.into().into(),
@@ -223,7 +223,7 @@ impl<'ui> WindowDrawList<'ui> {
         unsafe {
             let start = text.as_ptr() as *const c_char;
             let end = (start as usize + text.len()) as *const c_char;
-            sys::ImDrawList_AddText(self.draw_list, pos.into(), col.into().into(), start, end)
+            sys::ImDrawList_AddText(self.draw_list, &pos.into(), col.into().into(), start, end)
         }
     }
 
@@ -251,7 +251,7 @@ impl<'ui> WindowDrawList<'ui> {
     where
         F: FnOnce(),
     {
-        unsafe { sys::ImDrawList_PushClipRect(self.draw_list, min.into(), max.into(), false) }
+        unsafe { sys::ImDrawList_PushClipRect(self.draw_list, &mut min.into(), &mut max.into(), false) }
         f();
         unsafe { sys::ImDrawList_PopClipRect(self.draw_list) }
     }
@@ -265,7 +265,7 @@ impl<'ui> WindowDrawList<'ui> {
     where
         F: FnOnce(),
     {
-        unsafe { sys::ImDrawList_PushClipRect(self.draw_list, min.into(), max.into(), true) }
+        unsafe { sys::ImDrawList_PushClipRect(self.draw_list, &mut min.into(), &mut max.into(), true) }
         f();
         unsafe { sys::ImDrawList_PopClipRect(self.draw_list) }
     }
@@ -306,8 +306,8 @@ impl<'ui> Line<'ui> {
         unsafe {
             sys::ImDrawList_AddLine(
                 self.draw_list.draw_list,
-                self.p1.into(),
-                self.p2.into(),
+                &self.p1.into(),
+                &self.p2.into(),
                 self.color.into(),
                 self.thickness,
             )
@@ -394,8 +394,8 @@ impl<'ui> Rect<'ui> {
             unsafe {
                 sys::ImDrawList_AddRectFilled(
                     self.draw_list.draw_list,
-                    self.p1.into(),
-                    self.p2.into(),
+                    &self.p1.into(),
+                    &self.p2.into(),
                     self.color.into(),
                     self.rounding,
                     self.flags.bits(),
@@ -405,8 +405,8 @@ impl<'ui> Rect<'ui> {
             unsafe {
                 sys::ImDrawList_AddRect(
                     self.draw_list.draw_list,
-                    self.p1.into(),
-                    self.p2.into(),
+                    &self.p1.into(),
+                    &self.p2.into(),
                     self.color.into(),
                     self.rounding,
                     self.flags.bits(),
@@ -469,9 +469,9 @@ impl<'ui> Triangle<'ui> {
             unsafe {
                 sys::ImDrawList_AddTriangleFilled(
                     self.draw_list.draw_list,
-                    self.p1.into(),
-                    self.p2.into(),
-                    self.p3.into(),
+                    &self.p1.into(),
+                    &self.p2.into(),
+                    &self.p3.into(),
                     self.color.into(),
                 )
             }
@@ -479,9 +479,9 @@ impl<'ui> Triangle<'ui> {
             unsafe {
                 sys::ImDrawList_AddTriangle(
                     self.draw_list.draw_list,
-                    self.p1.into(),
-                    self.p2.into(),
-                    self.p3.into(),
+                    &self.p1.into(),
+                    &self.p2.into(),
+                    &self.p3.into(),
                     self.color.into(),
                     self.thickness,
                 )
@@ -543,7 +543,7 @@ impl<'ui> Circle<'ui> {
             unsafe {
                 sys::ImDrawList_AddCircleFilled(
                     self.draw_list.draw_list,
-                    self.center.into(),
+                    &self.center.into(),
                     self.radius,
                     self.color.into(),
                     self.num_segments as i32,
@@ -553,7 +553,7 @@ impl<'ui> Circle<'ui> {
             unsafe {
                 sys::ImDrawList_AddCircle(
                     self.draw_list.draw_list,
-                    self.center.into(),
+                    &self.center.into(),
                     self.radius,
                     self.color.into(),
                     self.num_segments as i32,
@@ -620,10 +620,10 @@ impl<'ui> BezierCurve<'ui> {
         unsafe {
             sys::ImDrawList_AddBezierCurve(
                 self.draw_list.draw_list,
-                self.pos0.into(),
-                self.cp0.into(),
-                self.cp1.into(),
-                self.pos1.into(),
+                &self.pos0.into(),
+                &self.cp0.into(),
+                &self.cp1.into(),
+                &self.pos1.into(),
                 self.color.into(),
                 self.thickness,
                 self.num_segments.unwrap_or(0) as i32,

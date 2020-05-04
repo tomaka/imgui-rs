@@ -58,11 +58,11 @@ impl Image {
         unsafe {
             sys::igImage(
                 self.texture_id.id() as *mut c_void,
-                self.size.into(),
-                self.uv0.into(),
-                self.uv1.into(),
-                self.tint_col.into(),
-                self.border_col.into(),
+                &self.size.into(),
+                &self.uv0.into(),
+                &self.uv1.into(),
+                &self.tint_col.into(),
+                &self.border_col.into(),
             );
         }
     }
@@ -133,12 +133,12 @@ impl ImageButton {
         unsafe {
             sys::igImageButton(
                 self.texture_id.id() as *mut c_void,
-                self.size.into(),
-                self.uv0.into(),
-                self.uv1.into(),
+                &self.size.into(),
+                &self.uv0.into(),
+                &self.uv1.into(),
                 self.frame_padding,
-                self.bg_col.into(),
-                self.tint_col.into(),
+                &self.bg_col.into(),
+                &self.tint_col.into(),
             )
         }
     }

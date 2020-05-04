@@ -112,7 +112,7 @@ impl<'a> Selectable<'a> {
                 self.label.as_ptr(),
                 self.selected,
                 self.flags.bits() as i32,
-                self.size.into(),
+                &self.size.into(),
             )
         }
     }

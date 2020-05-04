@@ -482,28 +482,28 @@ impl<'a> Window<'a> {
         if self.pos_cond != Condition::Never {
             unsafe {
                 sys::igSetNextWindowPos(
-                    self.pos.into(),
+                    &self.pos.into(),
                     self.pos_cond as i32,
-                    self.pos_pivot.into(),
+                    &self.pos_pivot.into(),
                 )
             };
         }
         if self.size_cond != Condition::Never {
-            unsafe { sys::igSetNextWindowSize(self.size.into(), self.size_cond as i32) };
+            unsafe { sys::igSetNextWindowSize(&self.size.into(), self.size_cond as i32) };
         }
         if let Some((size_min, size_max)) = self.size_constraints {
             // TODO: callback support
             unsafe {
                 sys::igSetNextWindowSizeConstraints(
-                    size_min.into(),
-                    size_max.into(),
+                    &size_min.into(),
+                    &size_max.into(),
                     None,
                     ptr::null_mut(),
                 )
             };
         }
         if self.content_size[0] != 0.0 || self.content_size[1] != 0.0 {
-            unsafe { sys::igSetNextWindowContentSize(self.content_size.into()) };
+            unsafe { sys::igSetNextWindowContentSize(&self.content_size.into()) };
         }
         if self.collapsed_cond != Condition::Never {
             unsafe { sys::igSetNextWindowCollapsed(self.collapsed, self.collapsed_cond as i32) };

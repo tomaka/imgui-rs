@@ -58,7 +58,7 @@ impl<'ui> Ui<'ui> {
     /// color.pop(&ui);
     /// ```
     pub fn push_style_color(&self, style_color: StyleColor, color: [f32; 4]) -> ColorStackToken {
-        unsafe { sys::igPushStyleColor(style_color as i32, color.into()) };
+        unsafe { sys::igPushStyleColor(style_color as i32, &color.into()) };
         ColorStackToken {
             count: 1,
             ctx: self.ctx,
@@ -90,7 +90,7 @@ impl<'ui> Ui<'ui> {
     {
         let mut count = 0;
         for &(style_color, color) in style_colors {
-            unsafe { sys::igPushStyleColor(style_color as i32, color.into()) };
+            unsafe { sys::igPushStyleColor(style_color as i32, &color.into()) };
             count += 1;
         }
         ColorStackToken {
@@ -227,23 +227,23 @@ unsafe fn push_style_var(style_var: StyleVar) {
     use crate::sys::{igPushStyleVarFloat, igPushStyleVarVec2};
     match style_var {
         Alpha(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_Alpha as i32, v),
-        WindowPadding(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_WindowPadding as i32, v.into()),
+        WindowPadding(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_WindowPadding as i32, &v.into()),
         WindowRounding(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_WindowRounding as i32, v),
         WindowBorderSize(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_WindowBorderSize as i32, v),
-        WindowMinSize(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_WindowMinSize as i32, v.into()),
+        WindowMinSize(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_WindowMinSize as i32, &v.into()),
         WindowTitleAlign(v) => {
-            igPushStyleVarVec2(sys::ImGuiStyleVar_WindowTitleAlign as i32, v.into())
+            igPushStyleVarVec2(sys::ImGuiStyleVar_WindowTitleAlign as i32, &v.into())
         }
         ChildRounding(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_ChildRounding as i32, v),
         ChildBorderSize(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_ChildBorderSize as i32, v),
         PopupRounding(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_PopupRounding as i32, v),
         PopupBorderSize(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_PopupBorderSize as i32, v),
-        FramePadding(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_FramePadding as i32, v.into()),
+        FramePadding(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_FramePadding as i32, &v.into()),
         FrameRounding(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_FrameRounding as i32, v),
         FrameBorderSize(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_FrameBorderSize as i32, v),
-        ItemSpacing(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_ItemSpacing as i32, v.into()),
+        ItemSpacing(v) => igPushStyleVarVec2(sys::ImGuiStyleVar_ItemSpacing as i32, &v.into()),
         ItemInnerSpacing(v) => {
-            igPushStyleVarVec2(sys::ImGuiStyleVar_ItemInnerSpacing as i32, v.into())
+            igPushStyleVarVec2(sys::ImGuiStyleVar_ItemInnerSpacing as i32, &v.into())
         }
         IndentSpacing(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_IndentSpacing as i32, v),
         ScrollbarSize(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_ScrollbarSize as i32, v),
@@ -252,10 +252,10 @@ unsafe fn push_style_var(style_var: StyleVar) {
         GrabRounding(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_GrabRounding as i32, v),
         TabRounding(v) => igPushStyleVarFloat(sys::ImGuiStyleVar_TabRounding as i32, v),
         ButtonTextAlign(v) => {
-            igPushStyleVarVec2(sys::ImGuiStyleVar_ButtonTextAlign as i32, v.into())
+            igPushStyleVarVec2(sys::ImGuiStyleVar_ButtonTextAlign as i32, &v.into())
         }
         SelectableTextAlign(v) => {
-            igPushStyleVarVec2(sys::ImGuiStyleVar_SelectableTextAlign as i32, v.into())
+            igPushStyleVarVec2(sys::ImGuiStyleVar_SelectableTextAlign as i32, &v.into())
         }
     }
 }

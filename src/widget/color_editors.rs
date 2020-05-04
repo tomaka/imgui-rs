@@ -593,9 +593,9 @@ impl<'a> ColorButton<'a> {
         unsafe {
             sys::igColorButton(
                 self.desc_id.as_ptr(),
-                self.color.into(),
+                &self.color.into(),
                 self.flags.bits() as _,
-                self.size.into(),
+                &mut self.size.into(),
             )
         }
     }

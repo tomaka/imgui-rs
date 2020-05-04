@@ -246,7 +246,7 @@ impl<'a> ChildWindow<'a> {
     /// Returns `None` if the window is not visible and no content should be rendered.
     pub fn begin(self, ui: &Ui) -> Option<ChildWindowToken> {
         if self.content_size[0] != 0.0 || self.content_size[1] != 0.0 {
-            unsafe { sys::igSetNextWindowContentSize(self.content_size.into()) };
+            unsafe { sys::igSetNextWindowContentSize(&self.content_size.into()) };
         }
         if self.focused {
             unsafe { sys::igSetNextWindowFocus() };
@@ -266,7 +266,7 @@ impl<'a> ChildWindow<'a> {
             }
         };
         let should_render = unsafe {
-            sys::igBeginChildID(id, self.size.into(), self.border, self.flags.bits() as i32)
+            sys::igBeginChildID(id, &self.size.into(), self.border, self.flags.bits() as i32)
         };
         if should_render {
             Some(ChildWindowToken { ctx: ui.ctx })

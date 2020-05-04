@@ -59,7 +59,7 @@ impl<'a> ProgressBar<'a> {
         unsafe {
             sys::igProgressBar(
                 self.fraction,
-                self.size.into(),
+                &self.size.into(),
                 self.overlay_text.map(|x| x.as_ptr()).unwrap_or(ptr::null()),
             );
         }

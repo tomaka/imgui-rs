@@ -122,7 +122,7 @@ impl<'ui> Ui<'ui> {
     /// Clipped by current clipping settings, but disregards other factors like focus, window
     /// ordering, modal popup blocking.
     pub fn is_mouse_hovering_rect(&self, r_min: [f32; 2], r_max: [f32; 2]) -> bool {
-        unsafe { sys::igIsMouseHoveringRect(r_min.into(), r_max.into(), true) }
+        unsafe { sys::igIsMouseHoveringRect(&r_min.into(), &r_max.into(), true) }
     }
     /// Returns the mouse position backed up at the time of opening a popup
     pub fn mouse_pos_on_opening_current_popup(&self) -> [f32; 2] {

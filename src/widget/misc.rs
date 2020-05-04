@@ -10,7 +10,7 @@ impl<'ui> Ui<'ui> {
     ///
     /// Returns true if this button was clicked.
     pub fn button(&self, label: &ImStr, size: [f32; 2]) -> bool {
-        unsafe { sys::igButton(label.as_ptr(), size.into()) }
+        unsafe { sys::igButton(label.as_ptr(), &size.into()) }
     }
     /// Renders a small clickable button that is easy to embed in text.
     ///
@@ -22,7 +22,7 @@ impl<'ui> Ui<'ui> {
     ///
     /// Returns true if this button was clicked.
     pub fn invisible_button(&self, id: &ImStr, size: [f32; 2]) -> bool {
-        unsafe { sys::igInvisibleButton(id.as_ptr(), size.into()) }
+        unsafe { sys::igInvisibleButton(id.as_ptr(), &size.into()) }
     }
     /// Renders a square button with an arrow shape.
     ///

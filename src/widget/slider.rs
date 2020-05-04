@@ -123,7 +123,7 @@ impl<'a, T: DataTypeKind> VerticalSlider<'a, T> {
         unsafe {
             sys::igVSliderScalar(
                 self.label.as_ptr(),
-                self.size.into(),
+                &self.size.into(),
                 T::KIND as i32,
                 value as *mut T as *mut c_void,
                 &self.min as *const T as *const c_void,

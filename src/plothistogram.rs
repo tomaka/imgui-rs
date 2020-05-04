@@ -71,7 +71,7 @@ impl<'ui, 'p> PlotHistogram<'ui, 'p> {
                 self.overlay_text.map(|x| x.as_ptr()).unwrap_or(ptr::null()),
                 self.scale_min,
                 self.scale_max,
-                self.graph_size.into(),
+                &mut self.graph_size.into(),
                 mem::size_of::<f32>() as i32,
             );
         }

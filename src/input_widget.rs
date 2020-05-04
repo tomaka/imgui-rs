@@ -241,7 +241,7 @@ impl<'ui, 'p> InputTextMultiline<'ui, 'p> {
                 self.label.as_ptr(),
                 ptr,
                 capacity,
-                self.size.into(),
+                &self.size.into(),
                 self.flags.bits(),
                 callback,
                 data,

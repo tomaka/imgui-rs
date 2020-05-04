@@ -61,7 +61,7 @@ impl DrawData {
     /// if there is a difference between your window resolution and framebuffer resolution.
     pub fn scale_clip_rects(&mut self, fb_scale: [f32; 2]) {
         unsafe {
-            sys::ImDrawData_ScaleClipRects(self.raw_mut(), fb_scale.into());
+            sys::ImDrawData_ScaleClipRects(self.raw_mut(), &fb_scale.into());
         }
     }
 }

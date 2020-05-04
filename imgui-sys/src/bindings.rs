@@ -191,12 +191,12 @@ pub struct ImVector_float {
 fn bindgen_test_layout_ImVector_float() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_float>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_float))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_float>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_float))
     );
     assert_eq!(
@@ -246,12 +246,12 @@ pub struct ImVector_ImWchar {
 fn bindgen_test_layout_ImVector_ImWchar() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImWchar>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImWchar))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImWchar>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImWchar))
     );
     assert_eq!(
@@ -301,12 +301,12 @@ pub struct ImVector_ImDrawVert {
 fn bindgen_test_layout_ImVector_ImDrawVert() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImDrawVert>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImDrawVert))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImDrawVert>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImDrawVert))
     );
     assert_eq!(
@@ -356,12 +356,12 @@ pub struct ImVector_ImFontGlyph {
 fn bindgen_test_layout_ImVector_ImFontGlyph() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImFontGlyph>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImFontGlyph))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImFontGlyph>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImFontGlyph))
     );
     assert_eq!(
@@ -411,12 +411,12 @@ pub struct ImVector_ImGuiTextRange {
 fn bindgen_test_layout_ImVector_ImGuiTextRange() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImGuiTextRange>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImGuiTextRange))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImGuiTextRange>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImGuiTextRange))
     );
     assert_eq!(
@@ -468,12 +468,12 @@ pub struct ImVector_ImGuiStoragePair {
 fn bindgen_test_layout_ImVector_ImGuiStoragePair() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImGuiStoragePair>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImGuiStoragePair))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImGuiStoragePair>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImGuiStoragePair))
     );
     assert_eq!(
@@ -525,12 +525,12 @@ pub struct ImVector_ImDrawChannel {
 fn bindgen_test_layout_ImVector_ImDrawChannel() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImDrawChannel>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImDrawChannel))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImDrawChannel>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImDrawChannel))
     );
     assert_eq!(
@@ -580,12 +580,12 @@ pub struct ImVector_char {
 fn bindgen_test_layout_ImVector_char() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_char>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_char))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_char>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_char))
     );
     assert_eq!(
@@ -635,12 +635,12 @@ pub struct ImVector_ImU32 {
 fn bindgen_test_layout_ImVector_ImU32() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImU32>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImU32))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImU32>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImU32))
     );
     assert_eq!(
@@ -690,12 +690,12 @@ pub struct ImVector_ImFontAtlasCustomRect {
 fn bindgen_test_layout_ImVector_ImFontAtlasCustomRect() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImFontAtlasCustomRect>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImFontAtlasCustomRect))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImFontAtlasCustomRect>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImFontAtlasCustomRect))
     );
     assert_eq!(
@@ -751,12 +751,12 @@ pub struct ImVector_ImTextureID {
 fn bindgen_test_layout_ImVector_ImTextureID() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImTextureID>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImTextureID))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImTextureID>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImTextureID))
     );
     assert_eq!(
@@ -806,12 +806,12 @@ pub struct ImVector_ImFontConfig {
 fn bindgen_test_layout_ImVector_ImFontConfig() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImFontConfig>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImFontConfig))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImFontConfig>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImFontConfig))
     );
     assert_eq!(
@@ -861,12 +861,12 @@ pub struct ImVector_ImFontPtr {
 fn bindgen_test_layout_ImVector_ImFontPtr() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImFontPtr>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImFontPtr))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImFontPtr>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImFontPtr))
     );
     assert_eq!(
@@ -916,12 +916,12 @@ pub struct ImVector_ImDrawCmd {
 fn bindgen_test_layout_ImVector_ImDrawCmd() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImDrawCmd>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImDrawCmd))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImDrawCmd>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImDrawCmd))
     );
     assert_eq!(
@@ -971,12 +971,12 @@ pub struct ImVector_ImVec4 {
 fn bindgen_test_layout_ImVector_ImVec4() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImVec4>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImVec4))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImVec4>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImVec4))
     );
     assert_eq!(
@@ -1026,12 +1026,12 @@ pub struct ImVector_ImDrawIdx {
 fn bindgen_test_layout_ImVector_ImDrawIdx() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImDrawIdx>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImDrawIdx))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImDrawIdx>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImDrawIdx))
     );
     assert_eq!(
@@ -1081,12 +1081,12 @@ pub struct ImVector_ImVec2 {
 fn bindgen_test_layout_ImVector_ImVec2() {
     assert_eq!(
         ::std::mem::size_of::<ImVector_ImVec2>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImVector_ImVec2))
     );
     assert_eq!(
         ::std::mem::align_of::<ImVector_ImVec2>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImVector_ImVec2))
     );
     assert_eq!(
@@ -2064,7 +2064,7 @@ pub struct ImGuiIO {
 fn bindgen_test_layout_ImGuiIO() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiIO>(),
-        5456usize,
+        5384usize,
         concat!("Size of: ", stringify!(ImGuiIO))
     );
     assert_eq!(
@@ -2134,7 +2134,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).LogFilename as *const _ as usize },
-        32usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2144,7 +2144,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDoubleClickTime as *const _ as usize },
-        40usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2154,7 +2154,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDoubleClickMaxDist as *const _ as usize },
-        44usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2164,7 +2164,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDragThreshold as *const _ as usize },
-        48usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2174,7 +2174,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeyMap as *const _ as usize },
-        52usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2184,7 +2184,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeyRepeatDelay as *const _ as usize },
-        140usize,
+        132usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2194,7 +2194,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeyRepeatRate as *const _ as usize },
-        144usize,
+        136usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2204,7 +2204,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).UserData as *const _ as usize },
-        152usize,
+        140usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2214,7 +2214,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).Fonts as *const _ as usize },
-        160usize,
+        144usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2224,7 +2224,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).FontGlobalScale as *const _ as usize },
-        168usize,
+        148usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2234,7 +2234,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).FontAllowUserScaling as *const _ as usize },
-        172usize,
+        152usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2244,7 +2244,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).FontDefault as *const _ as usize },
-        176usize,
+        156usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2254,7 +2254,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).DisplayFramebufferScale as *const _ as usize },
-        184usize,
+        160usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2264,7 +2264,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDrawCursor as *const _ as usize },
-        192usize,
+        168usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2274,7 +2274,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).ConfigMacOSXBehaviors as *const _ as usize },
-        193usize,
+        169usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2286,7 +2286,7 @@ fn bindgen_test_layout_ImGuiIO() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiIO>())).ConfigInputTextCursorBlink as *const _ as usize
         },
-        194usize,
+        170usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2298,7 +2298,7 @@ fn bindgen_test_layout_ImGuiIO() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiIO>())).ConfigWindowsResizeFromEdges as *const _ as usize
         },
-        195usize,
+        171usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2311,7 +2311,7 @@ fn bindgen_test_layout_ImGuiIO() {
             &(*(::std::ptr::null::<ImGuiIO>())).ConfigWindowsMoveFromTitleBarOnly as *const _
                 as usize
         },
-        196usize,
+        172usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2323,7 +2323,7 @@ fn bindgen_test_layout_ImGuiIO() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiIO>())).ConfigWindowsMemoryCompactTimer as *const _ as usize
         },
-        200usize,
+        176usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2333,7 +2333,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).BackendPlatformName as *const _ as usize },
-        208usize,
+        180usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2343,7 +2343,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).BackendRendererName as *const _ as usize },
-        216usize,
+        184usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2353,7 +2353,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).BackendPlatformUserData as *const _ as usize },
-        224usize,
+        188usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2363,7 +2363,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).BackendRendererUserData as *const _ as usize },
-        232usize,
+        192usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2373,7 +2373,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).BackendLanguageUserData as *const _ as usize },
-        240usize,
+        196usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2383,7 +2383,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).GetClipboardTextFn as *const _ as usize },
-        248usize,
+        200usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2393,7 +2393,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).SetClipboardTextFn as *const _ as usize },
-        256usize,
+        204usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2403,7 +2403,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).ClipboardUserData as *const _ as usize },
-        264usize,
+        208usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2413,7 +2413,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).ImeSetInputScreenPosFn as *const _ as usize },
-        272usize,
+        212usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2423,7 +2423,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).ImeWindowHandle as *const _ as usize },
-        280usize,
+        216usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2433,7 +2433,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).RenderDrawListsFnUnused as *const _ as usize },
-        288usize,
+        220usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2443,7 +2443,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MousePos as *const _ as usize },
-        296usize,
+        224usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2453,7 +2453,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDown as *const _ as usize },
-        304usize,
+        232usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2463,7 +2463,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseWheel as *const _ as usize },
-        312usize,
+        240usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2473,7 +2473,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseWheelH as *const _ as usize },
-        316usize,
+        244usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2483,7 +2483,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeyCtrl as *const _ as usize },
-        320usize,
+        248usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2493,7 +2493,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeyShift as *const _ as usize },
-        321usize,
+        249usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2503,7 +2503,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeyAlt as *const _ as usize },
-        322usize,
+        250usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2513,7 +2513,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeySuper as *const _ as usize },
-        323usize,
+        251usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2523,7 +2523,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeysDown as *const _ as usize },
-        324usize,
+        252usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2533,7 +2533,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).NavInputs as *const _ as usize },
-        836usize,
+        764usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2543,7 +2543,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).WantCaptureMouse as *const _ as usize },
-        920usize,
+        848usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2553,7 +2553,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).WantCaptureKeyboard as *const _ as usize },
-        921usize,
+        849usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2563,7 +2563,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).WantTextInput as *const _ as usize },
-        922usize,
+        850usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2573,7 +2573,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).WantSetMousePos as *const _ as usize },
-        923usize,
+        851usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2583,7 +2583,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).WantSaveIniSettings as *const _ as usize },
-        924usize,
+        852usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2593,7 +2593,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).NavActive as *const _ as usize },
-        925usize,
+        853usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2603,7 +2603,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).NavVisible as *const _ as usize },
-        926usize,
+        854usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2613,7 +2613,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).Framerate as *const _ as usize },
-        928usize,
+        856usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2623,7 +2623,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MetricsRenderVertices as *const _ as usize },
-        932usize,
+        860usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2633,7 +2633,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MetricsRenderIndices as *const _ as usize },
-        936usize,
+        864usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2643,7 +2643,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MetricsRenderWindows as *const _ as usize },
-        940usize,
+        868usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2653,7 +2653,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MetricsActiveWindows as *const _ as usize },
-        944usize,
+        872usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2665,7 +2665,7 @@ fn bindgen_test_layout_ImGuiIO() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiIO>())).MetricsActiveAllocations as *const _ as usize
         },
-        948usize,
+        876usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2675,7 +2675,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDelta as *const _ as usize },
-        952usize,
+        880usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2685,7 +2685,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MousePosPrev as *const _ as usize },
-        960usize,
+        888usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2695,7 +2695,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseClickedPos as *const _ as usize },
-        968usize,
+        896usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2705,7 +2705,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseClickedTime as *const _ as usize },
-        1008usize,
+        936usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2715,7 +2715,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseClicked as *const _ as usize },
-        1048usize,
+        976usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2725,7 +2725,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDoubleClicked as *const _ as usize },
-        1053usize,
+        981usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2735,7 +2735,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseReleased as *const _ as usize },
-        1058usize,
+        986usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2745,7 +2745,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDownOwned as *const _ as usize },
-        1063usize,
+        991usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2755,7 +2755,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDownWasDoubleClick as *const _ as usize },
-        1068usize,
+        996usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2765,7 +2765,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDownDuration as *const _ as usize },
-        1076usize,
+        1004usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2775,7 +2775,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDownDurationPrev as *const _ as usize },
-        1096usize,
+        1024usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2785,7 +2785,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDragMaxDistanceAbs as *const _ as usize },
-        1116usize,
+        1044usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2795,7 +2795,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).MouseDragMaxDistanceSqr as *const _ as usize },
-        1156usize,
+        1084usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2805,7 +2805,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeysDownDuration as *const _ as usize },
-        1176usize,
+        1104usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2815,7 +2815,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).KeysDownDurationPrev as *const _ as usize },
-        3224usize,
+        3152usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2825,7 +2825,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).NavInputsDownDuration as *const _ as usize },
-        5272usize,
+        5200usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2837,7 +2837,7 @@ fn bindgen_test_layout_ImGuiIO() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiIO>())).NavInputsDownDurationPrev as *const _ as usize
         },
-        5356usize,
+        5284usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2847,7 +2847,7 @@ fn bindgen_test_layout_ImGuiIO() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiIO>())).InputQueueCharacters as *const _ as usize },
-        5440usize,
+        5368usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiIO),
@@ -2886,12 +2886,12 @@ pub struct ImGuiInputTextCallbackData {
 fn bindgen_test_layout_ImGuiInputTextCallbackData() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiInputTextCallbackData>(),
-        56usize,
+        48usize,
         concat!("Size of: ", stringify!(ImGuiInputTextCallbackData))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiInputTextCallbackData>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiInputTextCallbackData))
     );
     assert_eq!(
@@ -2934,7 +2934,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).EventChar as *const _ as usize
         },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -2946,7 +2946,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).EventKey as *const _ as usize
         },
-        20usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -2956,7 +2956,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).Buf as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -2968,7 +2968,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).BufTextLen as *const _ as usize
         },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -2980,7 +2980,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).BufSize as *const _ as usize
         },
-        36usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -2992,7 +2992,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).BufDirty as *const _ as usize
         },
-        40usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -3004,7 +3004,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).CursorPos as *const _ as usize
         },
-        44usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -3017,7 +3017,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).SelectionStart as *const _
                 as usize
         },
-        48usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -3029,7 +3029,7 @@ fn bindgen_test_layout_ImGuiInputTextCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiInputTextCallbackData>())).SelectionEnd as *const _ as usize
         },
-        52usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiInputTextCallbackData),
@@ -3055,12 +3055,12 @@ pub struct ImGuiSizeCallbackData {
 fn bindgen_test_layout_ImGuiSizeCallbackData() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiSizeCallbackData>(),
-        32usize,
+        28usize,
         concat!("Size of: ", stringify!(ImGuiSizeCallbackData))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiSizeCallbackData>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiSizeCallbackData))
     );
     assert_eq!(
@@ -3075,7 +3075,7 @@ fn bindgen_test_layout_ImGuiSizeCallbackData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiSizeCallbackData>())).Pos as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiSizeCallbackData),
@@ -3087,7 +3087,7 @@ fn bindgen_test_layout_ImGuiSizeCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiSizeCallbackData>())).CurrentSize as *const _ as usize
         },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiSizeCallbackData),
@@ -3099,7 +3099,7 @@ fn bindgen_test_layout_ImGuiSizeCallbackData() {
         unsafe {
             &(*(::std::ptr::null::<ImGuiSizeCallbackData>())).DesiredSize as *const _ as usize
         },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiSizeCallbackData),
@@ -3129,12 +3129,12 @@ pub struct ImGuiPayload {
 fn bindgen_test_layout_ImGuiPayload() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiPayload>(),
-        64usize,
+        56usize,
         concat!("Size of: ", stringify!(ImGuiPayload))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiPayload>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiPayload))
     );
     assert_eq!(
@@ -3149,7 +3149,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).DataSize as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3159,7 +3159,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).SourceId as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3169,7 +3169,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).SourceParentId as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3179,7 +3179,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).DataFrameCount as *const _ as usize },
-        20usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3189,7 +3189,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).DataType as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3199,7 +3199,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).Preview as *const _ as usize },
-        57usize,
+        53usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3209,7 +3209,7 @@ fn bindgen_test_layout_ImGuiPayload() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiPayload>())).Delivery as *const _ as usize },
-        58usize,
+        54usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiPayload),
@@ -3267,12 +3267,12 @@ pub struct ImGuiTextFilter {
 fn bindgen_test_layout_ImGuiTextFilter() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiTextFilter>(),
-        280usize,
+        272usize,
         concat!("Size of: ", stringify!(ImGuiTextFilter))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiTextFilter>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiTextFilter))
     );
     assert_eq!(
@@ -3297,7 +3297,7 @@ fn bindgen_test_layout_ImGuiTextFilter() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiTextFilter>())).CountGrep as *const _ as usize },
-        272usize,
+        268usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiTextFilter),
@@ -3335,12 +3335,12 @@ pub struct ImGuiTextBuffer {
 fn bindgen_test_layout_ImGuiTextBuffer() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiTextBuffer>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImGuiTextBuffer))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiTextBuffer>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiTextBuffer))
     );
     assert_eq!(
@@ -3368,12 +3368,12 @@ pub struct ImGuiStorage {
 fn bindgen_test_layout_ImGuiStorage() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiStorage>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImGuiStorage))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiStorage>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiStorage))
     );
     assert_eq!(
@@ -3518,12 +3518,12 @@ pub struct ImDrawCmd {
 fn bindgen_test_layout_ImDrawCmd() {
     assert_eq!(
         ::std::mem::size_of::<ImDrawCmd>(),
-        56usize,
+        40usize,
         concat!("Size of: ", stringify!(ImDrawCmd))
     );
     assert_eq!(
         ::std::mem::align_of::<ImDrawCmd>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImDrawCmd))
     );
     assert_eq!(
@@ -3548,7 +3548,7 @@ fn bindgen_test_layout_ImDrawCmd() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawCmd>())).TextureId as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawCmd),
@@ -3558,7 +3558,7 @@ fn bindgen_test_layout_ImDrawCmd() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawCmd>())).VtxOffset as *const _ as usize },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawCmd),
@@ -3568,7 +3568,7 @@ fn bindgen_test_layout_ImDrawCmd() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawCmd>())).IdxOffset as *const _ as usize },
-        36usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawCmd),
@@ -3578,7 +3578,7 @@ fn bindgen_test_layout_ImDrawCmd() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawCmd>())).UserCallback as *const _ as usize },
-        40usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawCmd),
@@ -3588,7 +3588,7 @@ fn bindgen_test_layout_ImDrawCmd() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawCmd>())).UserCallbackData as *const _ as usize },
-        48usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawCmd),
@@ -3662,12 +3662,12 @@ pub struct ImDrawChannel {
 fn bindgen_test_layout_ImDrawChannel() {
     assert_eq!(
         ::std::mem::size_of::<ImDrawChannel>(),
-        32usize,
+        24usize,
         concat!("Size of: ", stringify!(ImDrawChannel))
     );
     assert_eq!(
         ::std::mem::align_of::<ImDrawChannel>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImDrawChannel))
     );
     assert_eq!(
@@ -3682,7 +3682,7 @@ fn bindgen_test_layout_ImDrawChannel() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawChannel>()))._IdxBuffer as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawChannel),
@@ -3707,12 +3707,12 @@ pub struct ImDrawListSplitter {
 fn bindgen_test_layout_ImDrawListSplitter() {
     assert_eq!(
         ::std::mem::size_of::<ImDrawListSplitter>(),
-        24usize,
+        20usize,
         concat!("Size of: ", stringify!(ImDrawListSplitter))
     );
     assert_eq!(
         ::std::mem::align_of::<ImDrawListSplitter>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImDrawListSplitter))
     );
     assert_eq!(
@@ -3789,12 +3789,12 @@ pub struct ImDrawList {
 fn bindgen_test_layout_ImDrawList() {
     assert_eq!(
         ::std::mem::size_of::<ImDrawList>(),
-        168usize,
+        120usize,
         concat!("Size of: ", stringify!(ImDrawList))
     );
     assert_eq!(
         ::std::mem::align_of::<ImDrawList>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImDrawList))
     );
     assert_eq!(
@@ -3809,7 +3809,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>())).IdxBuffer as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3819,7 +3819,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>())).VtxBuffer as *const _ as usize },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3829,7 +3829,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>())).Flags as *const _ as usize },
-        48usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3839,7 +3839,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._Data as *const _ as usize },
-        56usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3849,7 +3849,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._OwnerName as *const _ as usize },
-        64usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3859,7 +3859,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._VtxCurrentOffset as *const _ as usize },
-        72usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3869,7 +3869,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._VtxCurrentIdx as *const _ as usize },
-        76usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3879,7 +3879,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._VtxWritePtr as *const _ as usize },
-        80usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3889,7 +3889,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._IdxWritePtr as *const _ as usize },
-        88usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3899,7 +3899,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._ClipRectStack as *const _ as usize },
-        96usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3909,7 +3909,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._TextureIdStack as *const _ as usize },
-        112usize,
+        76usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3919,7 +3919,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._Path as *const _ as usize },
-        128usize,
+        88usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3929,7 +3929,7 @@ fn bindgen_test_layout_ImDrawList() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawList>()))._Splitter as *const _ as usize },
-        144usize,
+        100usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawList),
@@ -3959,12 +3959,12 @@ pub struct ImDrawData {
 fn bindgen_test_layout_ImDrawData() {
     assert_eq!(
         ::std::mem::size_of::<ImDrawData>(),
-        56usize,
+        44usize,
         concat!("Size of: ", stringify!(ImDrawData))
     );
     assert_eq!(
         ::std::mem::align_of::<ImDrawData>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImDrawData))
     );
     assert_eq!(
@@ -3979,7 +3979,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).CmdLists as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -3989,7 +3989,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).CmdListsCount as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -3999,7 +3999,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).TotalIdxCount as *const _ as usize },
-        20usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -4009,7 +4009,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).TotalVtxCount as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -4019,7 +4019,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).DisplayPos as *const _ as usize },
-        28usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -4029,7 +4029,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).DisplaySize as *const _ as usize },
-        36usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -4039,7 +4039,7 @@ fn bindgen_test_layout_ImDrawData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImDrawData>())).FramebufferScale as *const _ as usize },
-        44usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(ImDrawData),
@@ -4080,12 +4080,12 @@ pub struct ImFontConfig {
 fn bindgen_test_layout_ImFontConfig() {
     assert_eq!(
         ::std::mem::size_of::<ImFontConfig>(),
-        136usize,
+        120usize,
         concat!("Size of: ", stringify!(ImFontConfig))
     );
     assert_eq!(
         ::std::mem::align_of::<ImFontConfig>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImFontConfig))
     );
     assert_eq!(
@@ -4100,7 +4100,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).FontDataSize as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4112,7 +4112,7 @@ fn bindgen_test_layout_ImFontConfig() {
         unsafe {
             &(*(::std::ptr::null::<ImFontConfig>())).FontDataOwnedByAtlas as *const _ as usize
         },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4122,7 +4122,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).FontNo as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4132,7 +4132,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).SizePixels as *const _ as usize },
-        20usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4142,7 +4142,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).OversampleH as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4152,7 +4152,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).OversampleV as *const _ as usize },
-        28usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4162,7 +4162,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).PixelSnapH as *const _ as usize },
-        32usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4172,7 +4172,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).GlyphExtraSpacing as *const _ as usize },
-        36usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4182,7 +4182,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).GlyphOffset as *const _ as usize },
-        44usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4192,7 +4192,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).GlyphRanges as *const _ as usize },
-        56usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4202,7 +4202,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).GlyphMinAdvanceX as *const _ as usize },
-        64usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4212,7 +4212,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).GlyphMaxAdvanceX as *const _ as usize },
-        68usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4222,7 +4222,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).MergeMode as *const _ as usize },
-        72usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4232,7 +4232,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).RasterizerFlags as *const _ as usize },
-        76usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4242,7 +4242,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).RasterizerMultiply as *const _ as usize },
-        80usize,
+        68usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4252,7 +4252,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).EllipsisChar as *const _ as usize },
-        84usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4262,7 +4262,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).Name as *const _ as usize },
-        86usize,
+        74usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4272,7 +4272,7 @@ fn bindgen_test_layout_ImFontConfig() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontConfig>())).DstFont as *const _ as usize },
-        128usize,
+        116usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontConfig),
@@ -4427,12 +4427,12 @@ pub struct ImFontGlyphRangesBuilder {
 fn bindgen_test_layout_ImFontGlyphRangesBuilder() {
     assert_eq!(
         ::std::mem::size_of::<ImFontGlyphRangesBuilder>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(ImFontGlyphRangesBuilder))
     );
     assert_eq!(
         ::std::mem::align_of::<ImFontGlyphRangesBuilder>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImFontGlyphRangesBuilder))
     );
     assert_eq!(
@@ -4469,12 +4469,12 @@ pub struct ImFontAtlasCustomRect {
 fn bindgen_test_layout_ImFontAtlasCustomRect() {
     assert_eq!(
         ::std::mem::size_of::<ImFontAtlasCustomRect>(),
-        32usize,
+        28usize,
         concat!("Size of: ", stringify!(ImFontAtlasCustomRect))
     );
     assert_eq!(
         ::std::mem::align_of::<ImFontAtlasCustomRect>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImFontAtlasCustomRect))
     );
     assert_eq!(
@@ -4594,12 +4594,12 @@ pub struct ImFontAtlas {
 fn bindgen_test_layout_ImFontAtlas() {
     assert_eq!(
         ::std::mem::size_of::<ImFontAtlas>(),
-        120usize,
+        92usize,
         concat!("Size of: ", stringify!(ImFontAtlas))
     );
     assert_eq!(
         ::std::mem::align_of::<ImFontAtlas>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImFontAtlas))
     );
     assert_eq!(
@@ -4634,7 +4634,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexDesiredWidth as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4644,7 +4644,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexGlyphPadding as *const _ as usize },
-        20usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4654,7 +4654,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexPixelsAlpha8 as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4664,7 +4664,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexPixelsRGBA32 as *const _ as usize },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4674,7 +4674,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexWidth as *const _ as usize },
-        40usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4684,7 +4684,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexHeight as *const _ as usize },
-        44usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4694,7 +4694,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexUvScale as *const _ as usize },
-        48usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4704,7 +4704,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).TexUvWhitePixel as *const _ as usize },
-        56usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4714,7 +4714,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).Fonts as *const _ as usize },
-        64usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4724,7 +4724,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).CustomRects as *const _ as usize },
-        80usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4734,7 +4734,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).ConfigData as *const _ as usize },
-        96usize,
+        76usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4744,7 +4744,7 @@ fn bindgen_test_layout_ImFontAtlas() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFontAtlas>())).CustomRectIds as *const _ as usize },
-        112usize,
+        88usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFontAtlas),
@@ -4783,12 +4783,12 @@ pub struct ImFont {
 fn bindgen_test_layout_ImFont() {
     assert_eq!(
         ::std::mem::size_of::<ImFont>(),
-        112usize,
+        88usize,
         concat!("Size of: ", stringify!(ImFont))
     );
     assert_eq!(
         ::std::mem::align_of::<ImFont>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImFont))
     );
     assert_eq!(
@@ -4803,7 +4803,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).FallbackAdvanceX as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4813,7 +4813,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).FontSize as *const _ as usize },
-        20usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4823,7 +4823,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).IndexLookup as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4833,7 +4833,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).Glyphs as *const _ as usize },
-        40usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4843,7 +4843,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).FallbackGlyph as *const _ as usize },
-        56usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4853,7 +4853,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).DisplayOffset as *const _ as usize },
-        64usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4863,7 +4863,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).ContainerAtlas as *const _ as usize },
-        72usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4873,7 +4873,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).ConfigData as *const _ as usize },
-        80usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4883,7 +4883,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).ConfigDataCount as *const _ as usize },
-        88usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4893,7 +4893,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).FallbackChar as *const _ as usize },
-        90usize,
+        66usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4903,7 +4903,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).EllipsisChar as *const _ as usize },
-        92usize,
+        68usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4913,7 +4913,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).DirtyLookupTables as *const _ as usize },
-        94usize,
+        70usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4923,7 +4923,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).Scale as *const _ as usize },
-        96usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4933,7 +4933,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).Ascent as *const _ as usize },
-        100usize,
+        76usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4943,7 +4943,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).Descent as *const _ as usize },
-        104usize,
+        80usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4953,7 +4953,7 @@ fn bindgen_test_layout_ImFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImFont>())).MetricsTotalSurface as *const _ as usize },
-        108usize,
+        84usize,
         concat!(
             "Offset of field: ",
             stringify!(ImFont),
@@ -4977,12 +4977,12 @@ pub struct ImGuiTextRange {
 fn bindgen_test_layout_ImGuiTextRange() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiTextRange>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(ImGuiTextRange))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiTextRange>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiTextRange))
     );
     assert_eq!(
@@ -4997,7 +4997,7 @@ fn bindgen_test_layout_ImGuiTextRange() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ImGuiTextRange>())).e as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(ImGuiTextRange),
@@ -5023,18 +5023,18 @@ pub union ImGuiStoragePair__bindgen_ty_1 {
     pub val_i: ::std::os::raw::c_int,
     pub val_f: f32,
     pub val_p: *mut ::std::os::raw::c_void,
-    _bindgen_union_align: u64,
+    _bindgen_union_align: u32,
 }
 #[test]
 fn bindgen_test_layout_ImGuiStoragePair__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiStoragePair__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Size of: ", stringify!(ImGuiStoragePair__bindgen_ty_1))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiStoragePair__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiStoragePair__bindgen_ty_1))
     );
     assert_eq!(
@@ -5088,12 +5088,12 @@ impl ::std::fmt::Debug for ImGuiStoragePair__bindgen_ty_1 {
 fn bindgen_test_layout_ImGuiStoragePair() {
     assert_eq!(
         ::std::mem::size_of::<ImGuiStoragePair>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(ImGuiStoragePair))
     );
     assert_eq!(
         ::std::mem::align_of::<ImGuiStoragePair>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ImGuiStoragePair))
     );
     assert_eq!(
@@ -5226,14 +5226,18 @@ extern "C" {
 extern "C" {
     pub fn igBeginChild(
         str_id: *const ::std::os::raw::c_char,
-        size: ImVec2,
+        size: *const ImVec2,
         border: bool,
         flags: ImGuiWindowFlags,
     ) -> bool;
 }
 extern "C" {
-    pub fn igBeginChildID(id: ImGuiID, size: ImVec2, border: bool, flags: ImGuiWindowFlags)
-        -> bool;
+    pub fn igBeginChildID(
+        id: ImGuiID,
+        size: *const ImVec2,
+        border: bool,
+        flags: ImGuiWindowFlags,
+    ) -> bool;
 }
 extern "C" {
     pub fn igEndChild();
@@ -5260,21 +5264,21 @@ extern "C" {
     pub fn igGetWindowHeight() -> f32;
 }
 extern "C" {
-    pub fn igSetNextWindowPos(pos: ImVec2, cond: ImGuiCond, pivot: ImVec2);
+    pub fn igSetNextWindowPos(pos: *const ImVec2, cond: ImGuiCond, pivot: *const ImVec2);
 }
 extern "C" {
-    pub fn igSetNextWindowSize(size: ImVec2, cond: ImGuiCond);
+    pub fn igSetNextWindowSize(size: *const ImVec2, cond: ImGuiCond);
 }
 extern "C" {
     pub fn igSetNextWindowSizeConstraints(
-        size_min: ImVec2,
-        size_max: ImVec2,
+        size_min: *const ImVec2,
+        size_max: *const ImVec2,
         custom_callback: ImGuiSizeCallback,
         custom_callback_data: *mut ::std::os::raw::c_void,
     );
 }
 extern "C" {
-    pub fn igSetNextWindowContentSize(size: ImVec2);
+    pub fn igSetNextWindowContentSize(size: *const ImVec2);
 }
 extern "C" {
     pub fn igSetNextWindowCollapsed(collapsed: bool, cond: ImGuiCond);
@@ -5286,10 +5290,10 @@ extern "C" {
     pub fn igSetNextWindowBgAlpha(alpha: f32);
 }
 extern "C" {
-    pub fn igSetWindowPosVec2(pos: ImVec2, cond: ImGuiCond);
+    pub fn igSetWindowPosVec2(pos: *const ImVec2, cond: ImGuiCond);
 }
 extern "C" {
-    pub fn igSetWindowSizeVec2(size: ImVec2, cond: ImGuiCond);
+    pub fn igSetWindowSizeVec2(size: *const ImVec2, cond: ImGuiCond);
 }
 extern "C" {
     pub fn igSetWindowCollapsedBool(collapsed: bool, cond: ImGuiCond);
@@ -5301,10 +5305,18 @@ extern "C" {
     pub fn igSetWindowFontScale(scale: f32);
 }
 extern "C" {
-    pub fn igSetWindowPosStr(name: *const ::std::os::raw::c_char, pos: ImVec2, cond: ImGuiCond);
+    pub fn igSetWindowPosStr(
+        name: *const ::std::os::raw::c_char,
+        pos: *const ImVec2,
+        cond: ImGuiCond,
+    );
 }
 extern "C" {
-    pub fn igSetWindowSizeStr(name: *const ::std::os::raw::c_char, size: ImVec2, cond: ImGuiCond);
+    pub fn igSetWindowSizeStr(
+        name: *const ::std::os::raw::c_char,
+        size: *const ImVec2,
+        cond: ImGuiCond,
+    );
 }
 extern "C" {
     pub fn igSetWindowCollapsedStr(
@@ -5359,7 +5371,7 @@ extern "C" {
     pub fn igPushStyleColorU32(idx: ImGuiCol, col: ImU32);
 }
 extern "C" {
-    pub fn igPushStyleColor(idx: ImGuiCol, col: ImVec4);
+    pub fn igPushStyleColor(idx: ImGuiCol, col: *const ImVec4);
 }
 extern "C" {
     pub fn igPopStyleColor(count: ::std::os::raw::c_int);
@@ -5368,7 +5380,7 @@ extern "C" {
     pub fn igPushStyleVarFloat(idx: ImGuiStyleVar, val: f32);
 }
 extern "C" {
-    pub fn igPushStyleVarVec2(idx: ImGuiStyleVar, val: ImVec2);
+    pub fn igPushStyleVarVec2(idx: ImGuiStyleVar, val: *const ImVec2);
 }
 extern "C" {
     pub fn igPopStyleVar(count: ::std::os::raw::c_int);
@@ -5386,7 +5398,7 @@ extern "C" {
     pub fn igGetColorU32(idx: ImGuiCol, alpha_mul: f32) -> ImU32;
 }
 extern "C" {
-    pub fn igGetColorU32Vec4(col: ImVec4) -> ImU32;
+    pub fn igGetColorU32Vec4(col: *const ImVec4) -> ImU32;
 }
 extern "C" {
     pub fn igGetColorU32U32(col: ImU32) -> ImU32;
@@ -5434,7 +5446,7 @@ extern "C" {
     pub fn igSpacing();
 }
 extern "C" {
-    pub fn igDummy(size: ImVec2);
+    pub fn igDummy(size: *const ImVec2);
 }
 extern "C" {
     pub fn igIndent(indent_w: f32);
@@ -5455,7 +5467,7 @@ extern "C" {
     pub fn igGetCursorPosY() -> f32;
 }
 extern "C" {
-    pub fn igSetCursorPos(local_pos: ImVec2);
+    pub fn igSetCursorPos(local_pos: *const ImVec2);
 }
 extern "C" {
     pub fn igSetCursorPosX(local_x: f32);
@@ -5464,7 +5476,7 @@ extern "C" {
     pub fn igSetCursorPosY(local_y: f32);
 }
 extern "C" {
-    pub fn igSetCursorScreenPos(pos: ImVec2);
+    pub fn igSetCursorScreenPos(pos: *const ImVec2);
 }
 extern "C" {
     pub fn igAlignTextToFramePadding();
@@ -5521,7 +5533,7 @@ extern "C" {
     pub fn igText(fmt: *const ::std::os::raw::c_char, ...);
 }
 extern "C" {
-    pub fn igTextColored(col: ImVec4, fmt: *const ::std::os::raw::c_char, ...);
+    pub fn igTextColored(col: *const ImVec4, fmt: *const ::std::os::raw::c_char, ...);
 }
 extern "C" {
     pub fn igTextDisabled(fmt: *const ::std::os::raw::c_char, ...);
@@ -5540,13 +5552,13 @@ extern "C" {
     pub fn igBulletText(fmt: *const ::std::os::raw::c_char, ...);
 }
 extern "C" {
-    pub fn igButton(label: *const ::std::os::raw::c_char, size: ImVec2) -> bool;
+    pub fn igButton(label: *const ::std::os::raw::c_char, size: *const ImVec2) -> bool;
 }
 extern "C" {
     pub fn igSmallButton(label: *const ::std::os::raw::c_char) -> bool;
 }
 extern "C" {
-    pub fn igInvisibleButton(str_id: *const ::std::os::raw::c_char, size: ImVec2) -> bool;
+    pub fn igInvisibleButton(str_id: *const ::std::os::raw::c_char, size: *const ImVec2) -> bool;
 }
 extern "C" {
     pub fn igArrowButton(str_id: *const ::std::os::raw::c_char, dir: ImGuiDir) -> bool;
@@ -5554,22 +5566,22 @@ extern "C" {
 extern "C" {
     pub fn igImage(
         user_texture_id: ImTextureID,
-        size: ImVec2,
-        uv0: ImVec2,
-        uv1: ImVec2,
-        tint_col: ImVec4,
-        border_col: ImVec4,
+        size: *const ImVec2,
+        uv0: *const ImVec2,
+        uv1: *const ImVec2,
+        tint_col: *const ImVec4,
+        border_col: *const ImVec4,
     );
 }
 extern "C" {
     pub fn igImageButton(
         user_texture_id: ImTextureID,
-        size: ImVec2,
-        uv0: ImVec2,
-        uv1: ImVec2,
+        size: *const ImVec2,
+        uv0: *const ImVec2,
+        uv1: *const ImVec2,
         frame_padding: ::std::os::raw::c_int,
-        bg_col: ImVec4,
-        tint_col: ImVec4,
+        bg_col: *const ImVec4,
+        tint_col: *const ImVec4,
     ) -> bool;
 }
 extern "C" {
@@ -5593,7 +5605,11 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    pub fn igProgressBar(fraction: f32, size_arg: ImVec2, overlay: *const ::std::os::raw::c_char);
+    pub fn igProgressBar(
+        fraction: f32,
+        size_arg: *const ImVec2,
+        overlay: *const ::std::os::raw::c_char,
+    );
 }
 extern "C" {
     pub fn igBullet();
@@ -5886,7 +5902,7 @@ extern "C" {
 extern "C" {
     pub fn igVSliderFloat(
         label: *const ::std::os::raw::c_char,
-        size: ImVec2,
+        size: *const ImVec2,
         v: *mut f32,
         v_min: f32,
         v_max: f32,
@@ -5897,7 +5913,7 @@ extern "C" {
 extern "C" {
     pub fn igVSliderInt(
         label: *const ::std::os::raw::c_char,
-        size: ImVec2,
+        size: *const ImVec2,
         v: *mut ::std::os::raw::c_int,
         v_min: ::std::os::raw::c_int,
         v_max: ::std::os::raw::c_int,
@@ -5907,7 +5923,7 @@ extern "C" {
 extern "C" {
     pub fn igVSliderScalar(
         label: *const ::std::os::raw::c_char,
-        size: ImVec2,
+        size: *const ImVec2,
         data_type: ImGuiDataType,
         p_data: *mut ::std::os::raw::c_void,
         p_min: *const ::std::os::raw::c_void,
@@ -5931,7 +5947,7 @@ extern "C" {
         label: *const ::std::os::raw::c_char,
         buf: *mut ::std::os::raw::c_char,
         buf_size: usize,
-        size: ImVec2,
+        size: *const ImVec2,
         flags: ImGuiInputTextFlags,
         callback: ImGuiInputTextCallback,
         user_data: *mut ::std::os::raw::c_void,
@@ -6077,9 +6093,9 @@ extern "C" {
 extern "C" {
     pub fn igColorButton(
         desc_id: *const ::std::os::raw::c_char,
-        col: ImVec4,
+        col: *const ImVec4,
         flags: ImGuiColorEditFlags,
-        size: ImVec2,
+        size: *mut ImVec2,
     ) -> bool;
 }
 extern "C" {
@@ -6155,7 +6171,7 @@ extern "C" {
         label: *const ::std::os::raw::c_char,
         selected: bool,
         flags: ImGuiSelectableFlags,
-        size: ImVec2,
+        size: *const ImVec2,
     ) -> bool;
 }
 extern "C" {
@@ -6163,7 +6179,7 @@ extern "C" {
         label: *const ::std::os::raw::c_char,
         p_selected: *mut bool,
         flags: ImGuiSelectableFlags,
-        size: ImVec2,
+        size: *const ImVec2,
     ) -> bool;
 }
 extern "C" {
@@ -6192,7 +6208,7 @@ extern "C" {
     ) -> bool;
 }
 extern "C" {
-    pub fn igListBoxHeaderVec2(label: *const ::std::os::raw::c_char, size: ImVec2) -> bool;
+    pub fn igListBoxHeaderVec2(label: *const ::std::os::raw::c_char, size: *const ImVec2) -> bool;
 }
 extern "C" {
     pub fn igListBoxHeaderInt(
@@ -6213,7 +6229,7 @@ extern "C" {
         overlay_text: *const ::std::os::raw::c_char,
         scale_min: f32,
         scale_max: f32,
-        graph_size: ImVec2,
+        graph_size: *mut ImVec2,
         stride: ::std::os::raw::c_int,
     );
 }
@@ -6232,7 +6248,7 @@ extern "C" {
         overlay_text: *const ::std::os::raw::c_char,
         scale_min: f32,
         scale_max: f32,
-        graph_size: ImVec2,
+        graph_size: *mut ImVec2,
     );
 }
 extern "C" {
@@ -6244,7 +6260,7 @@ extern "C" {
         overlay_text: *const ::std::os::raw::c_char,
         scale_min: f32,
         scale_max: f32,
-        graph_size: ImVec2,
+        graph_size: *mut ImVec2,
         stride: ::std::os::raw::c_int,
     );
 }
@@ -6263,7 +6279,7 @@ extern "C" {
         overlay_text: *const ::std::os::raw::c_char,
         scale_min: f32,
         scale_max: f32,
-        graph_size: ImVec2,
+        graph_size: *mut ImVec2,
     );
 }
 extern "C" {
@@ -6464,8 +6480,8 @@ extern "C" {
 }
 extern "C" {
     pub fn igPushClipRect(
-        clip_rect_min: ImVec2,
-        clip_rect_max: ImVec2,
+        clip_rect_min: *const ImVec2,
+        clip_rect_max: *const ImVec2,
         intersect_with_current_clip_rect: bool,
     );
 }
@@ -6521,10 +6537,10 @@ extern "C" {
     pub fn igSetItemAllowOverlap();
 }
 extern "C" {
-    pub fn igIsRectVisible(size: ImVec2) -> bool;
+    pub fn igIsRectVisible(size: *const ImVec2) -> bool;
 }
 extern "C" {
-    pub fn igIsRectVisibleVec2(rect_min: ImVec2, rect_max: ImVec2) -> bool;
+    pub fn igIsRectVisibleVec2(rect_min: *const ImVec2, rect_max: *const ImVec2) -> bool;
 }
 extern "C" {
     pub fn igGetTime() -> f64;
@@ -6559,13 +6575,13 @@ extern "C" {
     );
 }
 extern "C" {
-    pub fn igBeginChildFrame(id: ImGuiID, size: ImVec2, flags: ImGuiWindowFlags) -> bool;
+    pub fn igBeginChildFrame(id: ImGuiID, size: *const ImVec2, flags: ImGuiWindowFlags) -> bool;
 }
 extern "C" {
     pub fn igEndChildFrame();
 }
 extern "C" {
-    pub fn igColorConvertFloat4ToU32(in_: ImVec4) -> ImU32;
+    pub fn igColorConvertFloat4ToU32(in_: *const ImVec4) -> ImU32;
 }
 extern "C" {
     pub fn igGetKeyIndex(imgui_key: ImGuiKey) -> ::std::os::raw::c_int;
@@ -6602,7 +6618,7 @@ extern "C" {
     pub fn igIsMouseDoubleClicked(button: ImGuiMouseButton) -> bool;
 }
 extern "C" {
-    pub fn igIsMouseHoveringRect(r_min: ImVec2, r_max: ImVec2, clip: bool) -> bool;
+    pub fn igIsMouseHoveringRect(r_min: *const ImVec2, r_max: *const ImVec2, clip: bool) -> bool;
 }
 extern "C" {
     pub fn igIsMousePosValid(mouse_pos: *const ImVec2) -> bool;
@@ -6964,7 +6980,7 @@ extern "C" {
     pub fn ImColor_ImColorFloat(r: f32, g: f32, b: f32, a: f32) -> *mut ImColor;
 }
 extern "C" {
-    pub fn ImColor_ImColorVec4(col: ImVec4) -> *mut ImColor;
+    pub fn ImColor_ImColorVec4(col: *const ImVec4) -> *mut ImColor;
 }
 extern "C" {
     pub fn ImColor_SetHSV(self_: *mut ImColor, h: f32, s: f32, v: f32, a: f32);
@@ -7013,8 +7029,8 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_PushClipRect(
         self_: *mut ImDrawList,
-        clip_rect_min: ImVec2,
-        clip_rect_max: ImVec2,
+        clip_rect_min: *mut ImVec2,
+        clip_rect_max: *mut ImVec2,
         intersect_with_current_clip_rect: bool,
     );
 }
@@ -7033,8 +7049,8 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddLine(
         self_: *mut ImDrawList,
-        p1: ImVec2,
-        p2: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
         col: ImU32,
         thickness: f32,
     );
@@ -7042,8 +7058,8 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddRect(
         self_: *mut ImDrawList,
-        p_min: ImVec2,
-        p_max: ImVec2,
+        p_min: *const ImVec2,
+        p_max: *const ImVec2,
         col: ImU32,
         rounding: f32,
         rounding_corners: ImDrawCornerFlags,
@@ -7053,8 +7069,8 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddRectFilled(
         self_: *mut ImDrawList,
-        p_min: ImVec2,
-        p_max: ImVec2,
+        p_min: *const ImVec2,
+        p_max: *const ImVec2,
         col: ImU32,
         rounding: f32,
         rounding_corners: ImDrawCornerFlags,
@@ -7063,8 +7079,8 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddRectFilledMultiColor(
         self_: *mut ImDrawList,
-        p_min: ImVec2,
-        p_max: ImVec2,
+        p_min: *const ImVec2,
+        p_max: *const ImVec2,
         col_upr_left: ImU32,
         col_upr_right: ImU32,
         col_bot_right: ImU32,
@@ -7074,10 +7090,10 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddQuad(
         self_: *mut ImDrawList,
-        p1: ImVec2,
-        p2: ImVec2,
-        p3: ImVec2,
-        p4: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
+        p4: *const ImVec2,
         col: ImU32,
         thickness: f32,
     );
@@ -7085,19 +7101,19 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddQuadFilled(
         self_: *mut ImDrawList,
-        p1: ImVec2,
-        p2: ImVec2,
-        p3: ImVec2,
-        p4: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
+        p4: *const ImVec2,
         col: ImU32,
     );
 }
 extern "C" {
     pub fn ImDrawList_AddTriangle(
         self_: *mut ImDrawList,
-        p1: ImVec2,
-        p2: ImVec2,
-        p3: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
         col: ImU32,
         thickness: f32,
     );
@@ -7105,16 +7121,16 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddTriangleFilled(
         self_: *mut ImDrawList,
-        p1: ImVec2,
-        p2: ImVec2,
-        p3: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
         col: ImU32,
     );
 }
 extern "C" {
     pub fn ImDrawList_AddCircle(
         self_: *mut ImDrawList,
-        center: ImVec2,
+        center: *const ImVec2,
         radius: f32,
         col: ImU32,
         num_segments: ::std::os::raw::c_int,
@@ -7124,7 +7140,7 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddCircleFilled(
         self_: *mut ImDrawList,
-        center: ImVec2,
+        center: *const ImVec2,
         radius: f32,
         col: ImU32,
         num_segments: ::std::os::raw::c_int,
@@ -7133,7 +7149,7 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddNgon(
         self_: *mut ImDrawList,
-        center: ImVec2,
+        center: *const ImVec2,
         radius: f32,
         col: ImU32,
         num_segments: ::std::os::raw::c_int,
@@ -7143,7 +7159,7 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddNgonFilled(
         self_: *mut ImDrawList,
-        center: ImVec2,
+        center: *const ImVec2,
         radius: f32,
         col: ImU32,
         num_segments: ::std::os::raw::c_int,
@@ -7152,7 +7168,7 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddText(
         self_: *mut ImDrawList,
-        pos: ImVec2,
+        pos: *const ImVec2,
         col: ImU32,
         text_begin: *const ::std::os::raw::c_char,
         text_end: *const ::std::os::raw::c_char,
@@ -7163,7 +7179,7 @@ extern "C" {
         self_: *mut ImDrawList,
         font: *const ImFont,
         font_size: f32,
-        pos: ImVec2,
+        pos: *const ImVec2,
         col: ImU32,
         text_begin: *const ::std::os::raw::c_char,
         text_end: *const ::std::os::raw::c_char,
@@ -7192,10 +7208,10 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_AddBezierCurve(
         self_: *mut ImDrawList,
-        p1: ImVec2,
-        p2: ImVec2,
-        p3: ImVec2,
-        p4: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
+        p4: *const ImVec2,
         col: ImU32,
         thickness: f32,
         num_segments: ::std::os::raw::c_int,
@@ -7205,10 +7221,10 @@ extern "C" {
     pub fn ImDrawList_AddImage(
         self_: *mut ImDrawList,
         user_texture_id: ImTextureID,
-        p_min: ImVec2,
-        p_max: ImVec2,
-        uv_min: ImVec2,
-        uv_max: ImVec2,
+        p_min: *const ImVec2,
+        p_max: *const ImVec2,
+        uv_min: *const ImVec2,
+        uv_max: *const ImVec2,
         col: ImU32,
     );
 }
@@ -7216,14 +7232,14 @@ extern "C" {
     pub fn ImDrawList_AddImageQuad(
         self_: *mut ImDrawList,
         user_texture_id: ImTextureID,
-        p1: ImVec2,
-        p2: ImVec2,
-        p3: ImVec2,
-        p4: ImVec2,
-        uv1: ImVec2,
-        uv2: ImVec2,
-        uv3: ImVec2,
-        uv4: ImVec2,
+        p1: *const ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
+        p4: *const ImVec2,
+        uv1: *const ImVec2,
+        uv2: *const ImVec2,
+        uv3: *const ImVec2,
+        uv4: *const ImVec2,
         col: ImU32,
     );
 }
@@ -7231,10 +7247,10 @@ extern "C" {
     pub fn ImDrawList_AddImageRounded(
         self_: *mut ImDrawList,
         user_texture_id: ImTextureID,
-        p_min: ImVec2,
-        p_max: ImVec2,
-        uv_min: ImVec2,
-        uv_max: ImVec2,
+        p_min: *const ImVec2,
+        p_max: *const ImVec2,
+        uv_min: *const ImVec2,
+        uv_max: *const ImVec2,
         col: ImU32,
         rounding: f32,
         rounding_corners: ImDrawCornerFlags,
@@ -7244,10 +7260,10 @@ extern "C" {
     pub fn ImDrawList_PathClear(self_: *mut ImDrawList);
 }
 extern "C" {
-    pub fn ImDrawList_PathLineTo(self_: *mut ImDrawList, pos: ImVec2);
+    pub fn ImDrawList_PathLineTo(self_: *mut ImDrawList, pos: *const ImVec2);
 }
 extern "C" {
-    pub fn ImDrawList_PathLineToMergeDuplicate(self_: *mut ImDrawList, pos: ImVec2);
+    pub fn ImDrawList_PathLineToMergeDuplicate(self_: *mut ImDrawList, pos: *const ImVec2);
 }
 extern "C" {
     pub fn ImDrawList_PathFillConvex(self_: *mut ImDrawList, col: ImU32);
@@ -7258,7 +7274,7 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_PathArcTo(
         self_: *mut ImDrawList,
-        center: ImVec2,
+        center: *const ImVec2,
         radius: f32,
         a_min: f32,
         a_max: f32,
@@ -7268,7 +7284,7 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_PathArcToFast(
         self_: *mut ImDrawList,
-        center: ImVec2,
+        center: *const ImVec2,
         radius: f32,
         a_min_of_12: ::std::os::raw::c_int,
         a_max_of_12: ::std::os::raw::c_int,
@@ -7277,17 +7293,17 @@ extern "C" {
 extern "C" {
     pub fn ImDrawList_PathBezierCurveTo(
         self_: *mut ImDrawList,
-        p2: ImVec2,
-        p3: ImVec2,
-        p4: ImVec2,
+        p2: *const ImVec2,
+        p3: *const ImVec2,
+        p4: *const ImVec2,
         num_segments: ::std::os::raw::c_int,
     );
 }
 extern "C" {
     pub fn ImDrawList_PathRect(
         self_: *mut ImDrawList,
-        rect_min: ImVec2,
-        rect_max: ImVec2,
+        rect_min: *const ImVec2,
+        rect_max: *const ImVec2,
         rounding: f32,
         rounding_corners: ImDrawCornerFlags,
     );
@@ -7335,40 +7351,55 @@ extern "C" {
     );
 }
 extern "C" {
-    pub fn ImDrawList_PrimRect(self_: *mut ImDrawList, a: ImVec2, b: ImVec2, col: ImU32);
+    pub fn ImDrawList_PrimRect(
+        self_: *mut ImDrawList,
+        a: *const ImVec2,
+        b: *const ImVec2,
+        col: ImU32,
+    );
 }
 extern "C" {
     pub fn ImDrawList_PrimRectUV(
         self_: *mut ImDrawList,
-        a: ImVec2,
-        b: ImVec2,
-        uv_a: ImVec2,
-        uv_b: ImVec2,
+        a: *const ImVec2,
+        b: *const ImVec2,
+        uv_a: *const ImVec2,
+        uv_b: *const ImVec2,
         col: ImU32,
     );
 }
 extern "C" {
     pub fn ImDrawList_PrimQuadUV(
         self_: *mut ImDrawList,
-        a: ImVec2,
-        b: ImVec2,
-        c: ImVec2,
-        d: ImVec2,
-        uv_a: ImVec2,
-        uv_b: ImVec2,
-        uv_c: ImVec2,
-        uv_d: ImVec2,
+        a: *const ImVec2,
+        b: *const ImVec2,
+        c: *const ImVec2,
+        d: *const ImVec2,
+        uv_a: *const ImVec2,
+        uv_b: *const ImVec2,
+        uv_c: *const ImVec2,
+        uv_d: *const ImVec2,
         col: ImU32,
     );
 }
 extern "C" {
-    pub fn ImDrawList_PrimWriteVtx(self_: *mut ImDrawList, pos: ImVec2, uv: ImVec2, col: ImU32);
+    pub fn ImDrawList_PrimWriteVtx(
+        self_: *mut ImDrawList,
+        pos: *const ImVec2,
+        uv: *const ImVec2,
+        col: ImU32,
+    );
 }
 extern "C" {
     pub fn ImDrawList_PrimWriteIdx(self_: *mut ImDrawList, idx: ImDrawIdx);
 }
 extern "C" {
-    pub fn ImDrawList_PrimVtx(self_: *mut ImDrawList, pos: ImVec2, uv: ImVec2, col: ImU32);
+    pub fn ImDrawList_PrimVtx(
+        self_: *mut ImDrawList,
+        pos: *const ImVec2,
+        uv: *const ImVec2,
+        col: ImU32,
+    );
 }
 extern "C" {
     pub fn ImDrawList_UpdateClipRect(self_: *mut ImDrawList);
@@ -7389,7 +7420,7 @@ extern "C" {
     pub fn ImDrawData_DeIndexAllBuffers(self_: *mut ImDrawData);
 }
 extern "C" {
-    pub fn ImDrawData_ScaleClipRects(self_: *mut ImDrawData, fb_scale: ImVec2);
+    pub fn ImDrawData_ScaleClipRects(self_: *mut ImDrawData, fb_scale: *const ImVec2);
 }
 extern "C" {
     pub fn ImFontConfig_ImFontConfig() -> *mut ImFontConfig;
@@ -7586,7 +7617,7 @@ extern "C" {
         width: ::std::os::raw::c_int,
         height: ::std::os::raw::c_int,
         advance_x: f32,
-        offset: ImVec2,
+        offset: *const ImVec2,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -7648,7 +7679,7 @@ extern "C" {
         self_: *mut ImFont,
         draw_list: *mut ImDrawList,
         size: f32,
-        pos: ImVec2,
+        pos: *mut ImVec2,
         col: ImU32,
         c: ImWchar,
     );
@@ -7658,9 +7689,9 @@ extern "C" {
         self_: *mut ImFont,
         draw_list: *mut ImDrawList,
         size: f32,
-        pos: ImVec2,
+        pos: *mut ImVec2,
         col: ImU32,
-        clip_rect: ImVec4,
+        clip_rect: *const ImVec4,
         text_begin: *const ::std::os::raw::c_char,
         text_end: *const ::std::os::raw::c_char,
         wrap_width: f32,

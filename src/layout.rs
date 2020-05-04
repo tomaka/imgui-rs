@@ -59,7 +59,7 @@ impl<'ui> Ui<'ui> {
     ///
     /// Can be used to move the cursor on the window.
     pub fn dummy(&self, size: [f32; 2]) {
-        unsafe { sys::igDummy(size.into()) }
+        unsafe { sys::igDummy(&size.into()) }
     }
     /// Moves content position to the right by `Style::indent_spacing`
     pub fn indent(&self) {
@@ -103,7 +103,7 @@ impl<'ui> Ui<'ui> {
     ///
     /// This sets the point on which the next widget will be drawn.
     pub fn set_cursor_pos(&self, pos: [f32; 2]) {
-        unsafe { sys::igSetCursorPos(pos.into()) };
+        unsafe { sys::igSetCursorPos(&pos.into()) };
     }
     /// Returns the initial cursor position (in window coordinates)
     pub fn cursor_start_pos(&self) -> [f32; 2] {
@@ -117,7 +117,7 @@ impl<'ui> Ui<'ui> {
     }
     /// Sets the cursor position (in absolute screen coordinates)
     pub fn set_cursor_screen_pos(&self, pos: [f32; 2]) {
-        unsafe { sys::igSetCursorScreenPos(pos.into()) }
+        unsafe { sys::igSetCursorScreenPos(&pos.into()) }
     }
     /// Vertically aligns text baseline so that it will align properly to regularly frame items.
     ///
